@@ -10,35 +10,35 @@ export const categories = [
         src: "/assets/images/faith-in-god/1.jpg",
         alt: "Spiritual reflection moment",
         caption: "Morning Reflection",
-        reflection: "[PLACEHOLDER - Replace with personal reflection] This moment captured during my morning prayer routine represents the foundation of my daily spiritual practice. I find that starting each day with intentional gratitude and meditation centers my perspective on what truly matters. The quiet stillness of early morning has become a sacred space where I can connect with my faith and gather strength for the challenges ahead. Over time, this simple practice has transformed how I approach both obstacles and opportunities with greater grace and trust. It reminds me that faith is not just belief, but an active choice to orient my life toward something greater than myself."
+        reflection: "This photo was taken during my quiet morning prayer, the part of my day I never skip. I have learned that starting each day with gratitude and meditation centers my mind on what actually matters instead of getting lost in the noise. The stillness of early morning has become a sacred space where I reconnect with my faith and gather strength for whatever lies ahead. Over time, this small ritual has changed how I face both problems and opportunities with more grace and trust. It has taught me that faith is not only about belief, but about deliberately choosing to orient my whole life toward something greater than myself. Every morning I am reminded that I do not have to carry my burdens alone."
       },
       {
         id: 2,
         src: "/assets/images/faith-in-god/2.jpg",
         alt: "Community worship gathering",
         caption: "Community Worship",
-        reflection: "[PLACEHOLDER - Replace with personal reflection] Gathering with others who share my faith has been essential to my spiritual journey, creating bonds that transcend mere friendship. There is something powerful about collective worship and the shared experience of seeking meaning together. These community moments have taught me that faith grows best in relationship with others, not in isolation. I've learned to listen to different perspectives and find common ground in our shared values and hopes. The diversity of voices in my faith community has challenged me to grow and deepened my understanding of what it means to live out spiritual principles in real, practical ways."
+        reflection: "Gathering together with my church community has been one of the most sustaining parts of my spiritual life. There is something powerful about worshipping side by side with others who are seeking meaning just as honestly as I am. These shared moments have shown me that faith grows best in relationship and fellowship, not in isolation. I have learned to listen to different voices and find common ground in the values we all hold dear. The diversity within my faith community challenges me to grow and deepens my understanding of what it means to live out spiritual principles. No matter how heavy my week has been, I always leave this gathering feeling lighter and more connected."
       },
       {
         id: 3,
         src: "/assets/images/faith-in-god/3.jpg",
         alt: "Nature meditation spot",
         caption: "Natural Sanctuary",
-        reflection: "[PLACEHOLDER - Replace with personal reflection] This peaceful spot in nature has become one of my favorite places for spiritual contemplation and renewal. Being surrounded by the beauty and complexity of the natural world reminds me of the larger patterns of creation and my place within them. I often bring my journal here to process my thoughts and prayers, finding that the natural environment helps quiet my mind and open my heart. The changing seasons and cycles of growth and decay offer profound lessons about patience, impermanence, and the mysterious ways that life unfolds. These moments in nature have become essential touchstones that reconnect me with wonder and humility."
+        reflection: "This quiet spot in nature is where I go whenever I need to slow down and think clearly. Surrounded by the beauty and order of the natural world, I am reminded of patterns much larger than my own problems. I often bring my journal here to untangle my thoughts and prayers, and the calm environment helps my mind settle. The changing seasons teach me patience, humility, and the quiet trust that life unfolds in its own time. These walks in nature have become touchstones that reconnect me with wonder whenever I start to feel burned out. In this place I remember that I am part of something vast and beautifully made."
       },
       {
         id: 4,
         src: "/assets/images/faith-in-god/4.jpg",
         alt: "Sacred text study",
         caption: "Sacred Study",
-        reflection: "[PLACEHOLDER - Replace with personal reflection] Engaging with sacred texts has been a lifelong practice that continues to reveal new layers of meaning and relevance. I approach these ancient writings not just as historical documents, but as living conversations that speak into my contemporary experience. The discipline of regular study has helped me develop critical thinking while also nurturing my spiritual imagination. I've discovered that the same passages can offer completely different insights depending on where I am in my life journey. This practice has taught me that faith involves both intellectual engagement and open-hearted receptivity to wisdom that transcends my own understanding."
+        reflection: "Studying sacred texts has been a lifelong habit that keeps revealing fresh layers of meaning to me. I approach these writings not as distant history but as living words that speak into my everyday life. The discipline of regular study has sharpened my thinking while also feeding my spiritual imagination. I have noticed that the same passages offer entirely new insights depending on where I am in my journey. This practice has taught me that faith asks for both an active mind and an open heart. It has shown me how to hold deep conviction together with genuine humility about what I do not yet understand."
       },
       {
         id: 5,
         src: "/assets/images/faith-in-god/5.jpg",
         alt: "Service and compassion in action",
         caption: "Faith in Action",
-        reflection: "[PLACEHOLDER - Replace with personal reflection] For me, faith must translate into concrete action and service to others, as belief without practice feels incomplete. This image captures a moment when my spiritual convictions motivated me to step outside my comfort zone and help someone in need. I've learned that putting faith into action often requires sacrifice and inconvenience, but these experiences have been among the most meaningful in my life. Service has become a way to live out my values rather than just professing them, creating alignment between what I believe and how I actually live. Each act of service, no matter how small, reinforces the connection between my spiritual life and my everyday choices."
+        reflection: "For me, faith only feels complete when it moves out of my head and into my hands. This photo captures a moment when my beliefs pushed me past my comfort zone to help someone who was struggling. I have learned that serving others often costs time and convenience, but those moments have been among the most meaningful of my life. Service has become the way I actually live out my values instead of merely professing them. Each small act of kindness strengthens the bond between what I believe and how I choose to act. It has shown me that compassion is not a feeling but a decision I make again and again."
       }
     ]
   },
@@ -53,35 +53,35 @@ export const categories = [
         src: "/assets/images/love-of-wisdom/1.jpg",
         alt: "Library research session",
         caption: "Research Journey",
-        reflection: "[PLACEHOLDER - Replace with personal reflection] Spending hours in the library diving deep into a subject I'm curious about represents one of my greatest joys and sources of fulfillment. I've always been driven by an insatiable desire to understand how things work and why they matter, not just on the surface but at their fundamental levels. This particular research project challenged me to synthesize information from multiple disciplines and perspectives, pushing my thinking in new directions. The process of discovery, even when it leads to more questions than answers, is what keeps my intellectual curiosity alive and growing. I've come to see education not as a means to an end but as a way of being in the world that brings richness and meaning to every experience."
+        reflection: "Hours spent in the library chasing a question I am curious about are some of my happiest moments. I have always been driven to understand not just how things work but why they matter beneath the surface. This research project pushed me to pull together ideas from many different fields and angles. The process of discovery, even when it ends with more questions than answers, keeps my curiosity burning. I have come to see learning not as a means to a grade but as a way of living that adds richness to everything I do. Every new answer simply opens another door I want to walk through."
       },
       {
         id: 2,
         src: "/assets/images/love-of-wisdom/2.jpg",
         alt: "Collaborative learning discussion",
         caption: "Collaborative Learning",
-        reflection: "[PLACEHOLDER - Replace with personal reflection] Some of my most profound learning has happened in conversations with others who see the world differently than I do. This discussion group became a space where we could challenge each other's assumptions and explore ideas without judgment or competition. I've learned that wisdom is not found in isolation but emerges through the dynamic exchange of perspectives and experiences. These collaborative moments have taught me to listen more deeply, question my own certainties, and embrace the discomfort of intellectual growth. The diversity of thought in this group has expanded my understanding and helped me develop more nuanced, inclusive ways of thinking about complex issues."
+        reflection: "Some of the deepest lessons I have ever learned happened in conversation with people who see the world differently than I do. This discussion group became a place where we could question each other's ideas without ego or competition. I have discovered that wisdom rarely appears in isolation; it emerges from the honest exchange of perspectives. These talks have taught me to listen carefully, to doubt my own certainties, and to welcome the discomfort of real growth. The range of thought in this group stretched my understanding in ways I could not have done alone. I now seek out conversations like these on purpose."
       },
       {
         id: 3,
         src: "/assets/images/love-of-wisdom/3.jpg",
         alt: "Problem-solving and analysis",
         caption: "Analytical Thinking",
-        reflection: "[PLACEHOLDER - Replace with personal reflection] This image captures me in the midst of working through a complex problem that required both analytical rigor and creative insight. I find deep satisfaction in breaking down challenges into their component parts and systematically exploring potential solutions. The process of analysis, when done with both discipline and imagination, reveals patterns and connections that might otherwise remain hidden. I've learned that true intelligence isn't just about having answers, but about asking better questions and being willing to follow where they lead. These moments of focused problem-solving remind me why I fell in love with learning in the first place."
+        reflection: "This image catches me in the middle of untangling a problem that demanded both careful logic and creative thinking. I find real satisfaction in breaking a big challenge into its parts and exploring each one patiently. Good analysis, done with both discipline and imagination, reveals patterns that are otherwise hidden. I have learned that real intelligence is less about having all the answers and more about asking sharper questions. These focused sessions remind me why I fell in love with learning in the first place. The thrill of a breakthrough is worth every hour of confusion that came before it."
       },
       {
         id: 4,
         src: "/assets/images/love-of-wisdom/4.jpg",
         alt: "Reading and intellectual exploration",
         caption: "Literary Exploration",
-        reflection: "[PLACEHOLDER - Replace with personal reflection] Books have been my constant companions and teachers, opening windows into worlds and minds I could never experience directly. This particular reading period transformed my understanding of an important topic and showed me how ideas can evolve across time and culture. I approach reading not just as passive consumption but as an active dialogue with the author, testing their insights against my own experience and knowledge. The habit of reading widely across genres and disciplines has given me a richer, more interconnected view of the world. Each book leaves me with new questions and pathways to explore, ensuring that my intellectual journey never truly ends."
+        reflection: "Books have been my most constant teachers, opening windows into lives and worlds I could never experience directly. This particular stretch of reading changed how I think about an important topic and showed me how ideas travel across time and culture. I read not as a passive receiver but as an active partner in conversation with the author. Reading widely across many genres has given me a richer and more connected view of the world. Each book leaves behind fresh questions and new trails to follow, which means my learning never really ends. I carry these conversations with me long after I close the cover."
       },
       {
         id: 5,
         src: "/assets/images/love-of-wisdom/5.jpg",
         alt: "Teaching and sharing knowledge",
         caption: "Sharing Knowledge",
-        reflection: "[PLACEHOLDER - Replace with personal reflection] Teaching others has been one of the most powerful ways to deepen my own understanding and love of learning. When I have to explain a concept clearly to someone else, I'm forced to clarify my own thinking and identify gaps in my knowledge. This moment captures the joy of seeing someone grasp an idea for the first time and the reciprocal learning that happens in teaching relationships. I've discovered that wisdom grows when it's shared, and that my understanding becomes more complete through the act of giving it away. These teaching experiences have taught me patience, empathy, and the importance of meeting people where they are in their learning journey."
+        reflection: "Teaching others has become one of the most powerful ways I deepen my own understanding. When I try to explain an idea clearly to someone else, I am forced to sort out my own thinking and face the gaps in it. This photo captures the joy of watching a concept finally click for another person. I have learned that wisdom grows when it is shared, and that my grasp of an idea becomes firmer the moment I give it away. These experiences have taught me patience, empathy, and how to meet people right where they are. Every time I teach, I end up learning the most."
       }
     ]
   },
@@ -96,35 +96,35 @@ export const categories = [
         src: "/assets/images/service-to-fellowmen/1.jpg",
         alt: "Community volunteer work",
         caption: "Community Service",
-        reflection: "[PLACEHOLDER - Replace with personal reflection] This volunteer project represents my commitment to giving back to the community that has given me so much. I've learned that service isn't just about helping others, but about building relationships and understanding different lived experiences. The work was often challenging and demanded skills I didn't know I had, pushing me to grow in unexpected ways. Through this experience, I discovered that my greatest fulfillment comes not from personal achievement but from contributing to something larger than myself. Service has become a lens through which I view all my decisions, asking how I can use my time and talents to benefit others."
+        reflection: "This volunteer project represents my commitment to giving back to the community that shaped me. I have learned that service is not just about helping others but about building genuine relationships across different lives. The work was demanding and called on skills I did not know I had, which pushed me to grow. Through this experience I discovered that my deepest fulfillment comes from contributing to something larger than myself. Service has become the lens through which I make my decisions, always asking how I can use my time for others. What I received from this community was far greater than what I gave."
       },
       {
         id: 2,
         src: "/assets/images/service-to-fellowmen/2.jpg",
         alt: "Mentoring and guidance",
         caption: "Mentoring Others",
-        reflection: "[PLACEHOLDER - Replace with personal reflection] Mentoring has been one of the most meaningful ways I've found to serve others, sharing the lessons I've learned with those coming up behind me. This relationship taught me that mentorship is not about having all the answers but about walking alongside someone and offering perspective and support. I've been humbled by how much I learn from my mentees, who often see possibilities and solutions that I miss. The reciprocal nature of mentoring has shown me that service flows in all directions and that we are all teachers and students to each other. These connections have given me a sense of purpose that extends far beyond my individual goals."
+        reflection: "Mentoring has been one of the most meaningful ways I have found to serve, passing on the lessons I have learned. This relationship taught me that mentoring is not about having all the answers but about walking alongside someone. I have been humbled by how much I learn from the people I mentor, who often see possibilities I miss. The give-and-take of mentoring has shown me that service flows in every direction. These connections have given me a sense of purpose that reaches far beyond my own goals. Being trusted with someone's growth is both a responsibility and a gift."
       },
       {
         id: 3,
         src: "/assets/images/service-to-fellowmen/3.jpg",
         alt: "Advocacy and social justice",
         caption: "Advocacy Work",
-        reflection: "[PLACEHOLDER - Replace with personal reflection] Getting involved in advocacy work challenged me to move beyond good intentions to concrete action on behalf of marginalized communities. This campaign required me to listen deeply to affected voices, educate myself on complex issues, and step out of my comfort zone to speak up. I learned that effective service sometimes means confronting uncomfortable truths and using whatever privilege I have to amplify others' concerns. The experience transformed my understanding of citizenship and responsibility, showing me that service includes working for systemic change. This work has given me a broader vision of what it means to serve fellowmen in a complex, interconnected world."
+        reflection: "Getting involved in advocacy pushed me past good intentions and into real action for people whose voices are often unheard. This campaign required me to listen closely, educate myself on difficult issues, and speak up even when it was uncomfortable. I learned that meaningful service sometimes means confronting hard truths and using my position to lift others. The experience transformed my understanding of what it means to be a responsible citizen. It showed me that service also means working for change in the systems around us. I left with a much broader vision of what serving my fellow men truly requires."
       },
       {
         id: 4,
         src: "/assets/images/service-to-fellowmen/4.jpg",
         alt: "Supporting those in need",
         caption: "Direct Support",
-        reflection: "[PLACEHOLDER - Replace with personal reflection] This moment captures me providing direct support to someone going through a difficult time, a form of service that feels both intimate and profound. I've learned that sometimes the most important service we can offer is simply being present with someone in their pain or struggle. These experiences have taught me to put aside my own agenda and truly listen to what others need rather than assuming I know what's best. The humility required for this kind of service has been transformative, helping me recognize my own vulnerabilities and interconnectedness with others. Direct service keeps me grounded in the reality that we all need help sometimes and that giving help is as essential to human dignity as receiving it."
+        reflection: "This moment captures me supporting someone through a difficult season, a kind of service that feels both intimate and profound. I have learned that sometimes the most important thing I can offer is simply being present with someone in their pain. These experiences taught me to set aside my own agenda and really listen to what another person needs. The humility required for this kind of care has been deeply transforming. Direct service keeps me grounded in the truth that we all need help at some point in our lives. Giving help and receiving it are both essential to our shared dignity."
       },
       {
         id: 5,
         src: "/assets/images/service-to-fellowmen/5.jpg",
         alt: "Building community connections",
         caption: "Community Building",
-        reflection: "[PLACEHOLDER - Replace with personal reflection] Organizing this community event taught me that service often means creating spaces where people can connect, support each other, and build something together. I discovered that my role wasn't to be the hero but to be a facilitator who helps others recognize and use their own gifts. The process of building community has required patience, conflict resolution, and the ability to see potential in unlikely places. These experiences have shown me that sustainable service isn't about doing things for people but about empowering them to do things for themselves and each other. Community building has given me a different understanding of leadership as service, focused on nurturing the collective good rather than individual recognition."
+        reflection: "Organizing this community event taught me that service often means creating spaces where people can connect and build together. I discovered that my role was not to be the hero but to help others recognize and use their own gifts. Building community has demanded patience, honest conversations, and the ability to see potential in unlikely places. These experiences have shown me that lasting service empowers people rather than doing things for them. Community building reshaped my understanding of leadership as service to the collective good. I learned that small, shared moments create the strongest bonds of all."
       }
     ]
   },
@@ -139,35 +139,35 @@ export const categories = [
         src: "/assets/images/builder-and-innovator/1.jpg",
         alt: "Research and development project",
         caption: "Research Innovation",
-        reflection: "[PLACEHOLDER - Replace with personal reflection] This research project represents my attempt to contribute something new to my field, building on existing knowledge while pushing into unexplored territory. The process required countless hours of experimentation, failure, and iteration, teaching me that innovation is as much about persistence as it is about insight. I learned to embrace uncertainty and see setbacks not as failures but as essential steps toward discovery. The experience revealed to me that true innovation often happens at the intersection of disciplines, where different perspectives and methodologies can spark new approaches. This project gave me confidence in my ability to not just consume knowledge but to create it, however incrementally."
+        reflection: "This research project was my attempt to add something new to my field by building on existing knowledge. The process demanded countless rounds of experiments, failures, and revisions that taught me about persistence. I learned to embrace uncertainty and to see setbacks as necessary steps toward discovery. The experience revealed that real innovation often happens where different disciplines meet and spark new ideas. This project gave me confidence that I can do more than consume knowledge, I can create it. Every failed attempt quietly brought me closer to the answer that finally worked."
       },
       {
         id: 2,
         src: "/assets/images/builder-and-innovator/2.jpg",
         alt: "Creative problem-solving session",
         caption: "Creative Solutions",
-        reflection: "[PLACEHOLDER - Replace with personal reflection] This brainstorming session captured the moment when a novel solution emerged for a problem that had seemed intractable. I've learned that creativity isn't a mysterious gift but a discipline that can be cultivated through practice and openness to new connections. The breakthrough came when I stopped trying to force a solution and instead allowed myself to play with ideas without judgment. This experience taught me the value of diverse perspectives and how combining different frameworks can lead to unexpected innovations. Creative problem-solving has become not just a skill but a mindset that I apply to challenges across all areas of my life."
+        reflection: "This brainstorming session captured the moment a fresh solution emerged for a problem that had seemed impossible. I have learned that creativity is not a mysterious gift but a skill I can build through practice and openness. The breakthrough arrived when I stopped forcing an answer and allowed myself to play with ideas without judging them. This experience taught me the value of different perspectives and how combining them sparks new approaches. Creative problem-solving has become a mindset I apply to challenges in every area of my life. The best ideas often arrive quietly, right after I stop gripping them too tightly."
       },
       {
         id: 3,
         src: "/assets/images/builder-and-innovator/3.jpg",
         alt: "Building and prototyping",
         caption: "Hands-on Creation",
-        reflection: "[PLACEHOLDER - Replace with personal reflection] Building this prototype reminded me that knowledge isn't just abstract—it's something that can be touched, tested, and improved through physical creation. The process of moving from concept to tangible form revealed gaps in my understanding and forced me to solve problems I hadn't anticipated. I found that making things, even imperfectly, teaches lessons that no textbook can convey about materials, processes, and the relationship between design and function. This hands-on approach has given me a deeper appreciation for the craftsmanship and practical knowledge that underlies theoretical innovation. The experience bridged the gap between thinking and doing, showing me that building is thinking in another form."
+        reflection: "Building this prototype reminded me that knowledge is not just abstract but something I can hold and improve with my hands. Moving from a concept to a tangible object exposed gaps in my understanding and forced me to solve real problems. I found that making things, even imperfectly, teaches lessons no textbook can capture about materials and process. This hands-on work gave me a deeper respect for the craft behind theoretical innovation. It bridged the distance between thinking and doing in a way I had never felt before. Building, I now understand, is simply thinking in another form."
       },
       {
         id: 4,
         src: "/assets/images/builder-and-innovator/4.jpg",
         alt: "Collaborative innovation project",
         caption: "Collaborative Innovation",
-        reflection: "[PLACEHOLDER - Replace with personal reflection] This collaborative project demonstrated that the most impactful innovations often emerge from the friction and synergy of diverse minds working together. Our team brought different expertise, working styles, and cultural perspectives, which sometimes created conflict but ultimately led to richer solutions. I learned that innovation requires both individual creativity and collective intelligence, and that the best ideas often come from the edges where different disciplines meet. The experience challenged my ego and taught me to value others' contributions as much as my own. Collaborative innovation has shown me that building knowledge is inherently a social process, not a solitary pursuit."
+        reflection: "This collaborative project showed me that the most powerful innovations come from many minds working together. Our team brought different skills, styles, and backgrounds that sometimes clashed but ultimately produced richer solutions. I learned that innovation needs both individual creativity and shared intelligence. The experience challenged my pride and taught me to value others' contributions as much as my own. Collaborative work showed me that building knowledge is inherently a social process, not a solitary one. The friction between our different perspectives was exactly what made the final result strong."
       },
       {
         id: 5,
         src: "/assets/images/builder-and-innovator/5.jpg",
         alt: "Publishing and sharing findings",
         caption: "Knowledge Dissemination",
-        reflection: "[PLACEHOLDER - Replace with personal reflection] Publishing these findings represented the culmination of a long process and the beginning of their impact beyond my immediate context. I've learned that building knowledge isn't complete until it's shared with others who can test, extend, and apply it. The process of writing and presenting taught me to communicate complex ideas clearly and to anticipate questions and critiques from different audiences. This experience showed me that innovation creates a responsibility to contribute to the broader conversation in my field. Disseminating knowledge has become as important to me as creating it, recognizing that ideas grow through engagement with the wider community."
+        reflection: "Sharing these findings marked the end of a long process and the start of their impact beyond my own world. I have learned that building knowledge is incomplete until it is handed to others who can test and extend it. The process of writing and presenting forced me to communicate complex ideas clearly for different audiences. This experience showed me that creating knowledge carries a responsibility to contribute to the wider conversation. Sharing what I learn has become just as important to me as discovering it in the first place. Ideas only grow stronger when they are passed around."
       }
     ]
   },
@@ -182,35 +182,35 @@ export const categories = [
         src: "/assets/images/efficient-professional/1.jpg",
         alt: "Professional presentation",
         caption: "Professional Presentation",
-        reflection: "[PLACEHOLDER - Replace with personal reflection] Delivering this presentation required me to synthesize complex information into a clear, compelling narrative that would resonate with my audience. I learned that effective communication isn't just about transmitting information but about understanding what listeners need and care about. The preparation process involved countless revisions and practice sessions, teaching me that excellence requires both substance and style. I discovered that the best presentations feel like conversations rather than lectures, creating space for engagement and dialogue. This experience has made me more intentional about all my professional communications, always considering not just what I want to say but what others need to hear."
+        reflection: "Delivering this presentation required me to turn complex information into a clear, compelling story for my audience. I learned that effective communication is about understanding what listeners need, not just transferring facts. The preparation meant countless revisions and practice rounds that taught me the value of substance and polish. I discovered that the best presentations feel like conversations rather than lectures. This experience made me more intentional in every professional message I send. I now think just as carefully about what others need to hear as about what I want to say."
       },
       {
         id: 2,
         src: "/assets/images/efficient-professional/2.jpg",
         alt: "Team collaboration and leadership",
         caption: "Team Leadership",
-        reflection: "[PLACEHOLDER - Replace with personal reflection] Leading this team project taught me that professional efficiency isn't just about individual productivity but about creating systems where everyone can work effectively together. I learned to balance clear direction with flexibility, providing structure while also empowering team members to take ownership of their work. The experience revealed that good leadership requires deep listening, conflict resolution, and the ability to recognize and deploy different strengths. I discovered that my role wasn't to have all the answers but to create conditions where the team's collective intelligence could emerge. Professional excellence, I realized, is as much about enabling others as it is about my own performance."
+        reflection: "Leading this team taught me that professional efficiency is about creating systems where everyone can do their best work. I learned to balance clear direction with flexibility, giving structure while trusting my teammates to own their tasks. The experience revealed that good leadership requires listening, honest conflict, and recognizing different strengths. I discovered that my job was not to have every answer but to create conditions for the team's collective talent to emerge. Professional excellence, I realized, is as much about lifting others as it is about my own output. The team taught me far more than I led them."
       },
       {
         id: 3,
         src: "/assets/images/efficient-professional/3.jpg",
         alt: "Project management and organization",
         caption: "Project Management",
-        reflection: "[PLACEHOLDER - Replace with personal reflection] Managing this complex project required me to develop systems for tracking progress, anticipating problems, and adapting to changing circumstances. I learned that efficiency isn't about cutting corners but about making smart choices about where to focus limited time and resources. The experience taught me the importance of clear communication with stakeholders and the need to balance competing priorities. I discovered that good project management combines analytical thinking with emotional intelligence, as people are often the most complex variable in any system. These skills have become fundamental to how I approach all professional work, giving me confidence to take on increasingly complex challenges."
+        reflection: "Managing this complex project forced me to build systems for tracking progress and adapting to change. I learned that efficiency is not about cutting corners but about choosing wisely where to spend limited time and energy. The experience taught me the importance of clear communication and balancing competing priorities. I discovered that good project management blends analytical thinking with emotional intelligence. These skills have become the foundation of how I approach every piece of professional work. Taking on this challenge gave me the confidence to handle bigger ones."
       },
       {
         id: 4,
         src: "/assets/images/efficient-professional/4.jpg",
         alt: "Written communication and documentation",
         caption: "Written Communication",
-        reflection: "[PLACEHOLDER - Replace with personal reflection] Crafting this documentation taught me that clear writing is clear thinking, and that professional documents must serve both immediate needs and future readers. I learned to anticipate questions, structure information logically, and eliminate unnecessary complexity without losing essential nuance. The process of revision showed me that the best writing emerges from multiple drafts and feedback from others with different perspectives. I discovered that professional writing creates a trail of decisions and rationale that can be invaluable for continuity and learning. This experience has made me more disciplined about all my written communications, recognizing their lasting impact on professional relationships and outcomes."
+        reflection: "Crafting this documentation taught me that clear writing is really clear thinking. I learned to anticipate questions, organize information logically, and cut unnecessary complexity without losing nuance. The process of revision showed me that strong writing comes from many drafts and honest feedback. I discovered that good documentation creates a trail of decisions that helps everyone who comes after. This experience made me more disciplined in all my written work, aware that words outlast the moment they are written. Professional writing, done well, becomes a service to the people who read it later."
       },
       {
         id: 5,
         src: "/assets/images/efficient-professional/5.jpg",
         alt: "Networking and professional relationships",
         caption: "Professional Network",
-        reflection: "[PLACEHOLDER - Replace with personal reflection] Building this professional relationship taught me that effective communication and efficiency often depend on strong networks built on trust and mutual benefit. I learned that networking isn't about collecting contacts but about cultivating genuine relationships where both parties can grow and contribute. The experience showed me that the most valuable professional connections often come from unexpected places and require ongoing investment. I discovered that my professional reputation is built not just on my work but on how I treat others and whether I follow through on commitments. These relationships have become essential resources for learning, collaboration, and opportunity, demonstrating that professional success is inherently relational."
+        reflection: "Building this professional relationship taught me that communication and efficiency grow out of trust and mutual respect. I learned that networking is not about collecting contacts but about cultivating genuine connections. The experience showed me that the best professional relationships often begin in unexpected places and need steady care. I discovered that my reputation rests on how I treat people and whether I keep my word. These relationships have become vital sources of learning, support, and opportunity. Professional success, I now see clearly, is deeply relational at its core."
       }
     ]
   },
@@ -225,35 +225,35 @@ export const categories = [
         src: "/assets/images/social-moral-global/1.jpg",
         alt: "Cultural exchange experience",
         caption: "Cultural Exchange",
-        reflection: "[PLACEHOLDER - Replace with personal reflection] This cultural exchange experience fundamentally shifted my perspective, challenging my assumptions and expanding my understanding of different ways of living and being. I learned that global citizenship isn't about abandoning my own identity but about developing the capacity to see the world through multiple cultural lenses. The discomfort of being in an unfamiliar context taught me empathy and humility, showing me how much I take for granted. I discovered that meaningful cross-cultural engagement requires curiosity more than judgment, and that the most important learning often comes from mistakes and misunderstandings. This experience has made me more aware of both the diversity and the common humanity that connects us across borders."
+        reflection: "This cultural exchange experience shifted my perspective and challenged assumptions I did not even know I held. I learned that being a global citizen does not mean abandoning my own identity but widening how I see the world. The discomfort of unfamiliar surroundings taught me empathy, humility, and how much I usually take for granted. I discovered that genuine cross-cultural connection grows from curiosity more than judgment. This experience made me aware of both our differences and the shared humanity that links us across borders. I came home seeing my own culture more clearly than ever before."
       },
       {
         id: 2,
         src: "/assets/images/social-moral-global/2.jpg",
         alt: "Ethical decision-making",
         caption: "Ethical Leadership",
-        reflection: "[PLACEHOLDER - Replace with personal reflection] Facing this ethical dilemma forced me to clarify my values and develop a framework for making difficult decisions with integrity. I learned that moral leadership isn't about having clear answers but about navigating complexity with honesty, compassion, and courage. The experience revealed that ethical choices often involve genuine trade-offs between competing goods, and that the right path isn't always obvious. I discovered that seeking diverse perspectives and considering impacts on all stakeholders is essential to responsible decision-making. This challenge has made me more thoughtful about the ethical dimensions of all my choices, recognizing that personal and professional integrity are built through countless small decisions."
+        reflection: "Facing this ethical dilemma forced me to clarify my values and build a framework for hard decisions. I learned that moral leadership is not about easy answers but about navigating complexity with honesty and courage. The experience showed me that ethical choices often involve genuine trade-offs between competing goods. I discovered that seeking diverse perspectives and considering everyone affected is essential to good decisions. This challenge has made me more thoughtful about the ethical side of all my choices. Integrity, I now believe, is built through many small decisions made when no one is watching."
       },
       {
         id: 3,
         src: "/assets/images/social-moral-global/3.jpg",
         alt: "Global issues engagement",
         caption: "Global Issues",
-        reflection: "[PLACEHOLDER - Replace with personal reflection] Engaging with this global issue helped me understand the interconnected nature of today's challenges and the importance of thinking beyond local or national boundaries. I learned that being a global citizen means educating myself about issues that may not directly affect me but that have profound consequences for others. The experience revealed how complex systems create problems that no single country or community can solve alone. I discovered that global engagement requires both knowledge and humility, recognizing that solutions must be developed with those most affected rather than imposed from outside. This work has given me a broader context for understanding my role and responsibilities in an interconnected world."
+        reflection: "Engaging with this global issue helped me see how connected today's challenges really are. I learned that being a global citizen means educating myself about problems that may not touch me directly but matter deeply to others. The experience revealed how complex systems create issues no single community can solve alone. I discovered that real engagement requires both knowledge and humility. Global work has given me a broader sense of my own role and responsibilities in an interconnected world. I no longer think of any issue as simply happening somewhere else."
       },
       {
         id: 4,
         src: "/assets/images/social-moral-global/4.jpg",
         alt: "Community engagement and participation",
         caption: "Civic Engagement",
-        reflection: "[PLACEHOLDER - Replace with personal reflection] Participating in this civic process taught me that democracy and community require active engagement, not just passive observation. I learned that being a good citizen means staying informed about issues, showing up for difficult conversations, and working across differences to find common ground. The experience revealed that change is possible but rarely quick or easy, requiring persistence and the ability to work through setbacks. I discovered that my voice matters most when joined with others, and that collective action has power that individual action cannot match. Civic engagement has become an essential part of how I understand my responsibility to the community and the wider society."
+        reflection: "Taking part in this civic process taught me that democracy and community demand active involvement, not passive watching. I learned that being a good citizen means staying informed, showing up for hard conversations, and working across differences. The experience showed me that change is possible but rarely quick, requiring persistence through setbacks. I discovered that my voice carries the most weight when it joins with others. Civic engagement has become a core part of how I understand my responsibility to society. Showing up is the first and most important act of citizenship."
       },
       {
         id: 5,
         src: "/assets/images/social-moral-global/5.jpg",
         alt: "Social responsibility and sustainability",
         caption: "Social Responsibility",
-        reflection: "[PLACEHOLDER - Replace with personal reflection] This sustainability project taught me that social responsibility includes considering the long-term impacts of our choices on people and planet. I learned that individual actions, when multiplied across communities, can create meaningful change even on seemingly intractable problems. The experience revealed how environmental, social, and economic issues are interconnected, requiring holistic thinking rather than narrow solutions. I discovered that living responsibly isn't about perfection but about conscious, incremental improvement and the willingness to make trade-offs. This work has given me a framework for evaluating my personal and professional decisions through the lens of broader impact and intergenerational responsibility."
+        reflection: "This sustainability project taught me that responsibility includes thinking about the long-term impact of my choices. I learned that small individual actions, multiplied across a community, can create meaningful change. The experience revealed how environmental, social, and economic issues are tangled together and need whole-picture thinking. I discovered that living responsibly is not about perfection but about steady, conscious improvement. This work gave me a framework for weighing my decisions by their wider effects. I now ask not just whether I can do something, but whether I should."
       }
     ]
   },
@@ -268,35 +268,35 @@ export const categories = [
         src: "/assets/images/transformed-lifelong-learner/1.jpg",
         alt: "Learning new skill",
         caption: "New Skill Acquisition",
-        reflection: "[PLACEHOLDER - Replace with personal reflection] Learning this completely new skill reminded me that growth often requires stepping outside my comfort zone and embracing being a beginner again. I discovered that the process of learning something unfamiliar is humbling but also liberating, as it frees me from the pressure to be expert and allows me to be curious and playful. The experience taught me different approaches to problem-solving and revealed hidden assumptions about how I learn best. I found that the satisfaction of mastering something through sustained effort is deeper than the quick wins of relying on existing strengths. This experience has reinforced my commitment to continuous learning, recognizing that growth happens most profoundly in the zone of manageable challenge."
+        reflection: "Learning this brand-new skill reminded me that growth means stepping outside my comfort zone and being a beginner again. I discovered that the awkwardness of starting fresh is humbling but also freeing, letting me be curious and playful. The experience taught me new ways of solving problems and revealed hidden assumptions about how I learn. I found that mastering something through steady effort is far more satisfying than easy wins. This experience renewed my commitment to continuous learning. Real growth happens right at the edge of what feels difficult."
       },
       {
         id: 2,
         src: "/assets/images/transformed-lifelong-learner/2.jpg",
         alt: "Personal growth and reflection",
         caption: "Personal Growth",
-        reflection: "[PLACEHOLDER - Replace with personal reflection] This period of intentional self-reflection and personal development work was transformative, helping me understand patterns in my behavior and beliefs that I wanted to change. I learned that personal growth isn't linear but cyclical, with progress often followed by regression before deeper integration occurs. The experience required vulnerability and honesty, as I had to confront aspects of myself that I preferred to avoid. I discovered that true transformation isn't about fixing what's broken but about expanding my capacity for awareness, compassion, and choice. This journey has given me tools for ongoing self-work and the recognition that growth is a lifelong process rather than a destination."
+        reflection: "This period of honest self-reflection helped me understand patterns in my thoughts and habits that I wanted to change. I learned that personal growth is not a straight line but a cycle of progress and reset. The work required vulnerability, because I had to face parts of myself I usually avoided. I discovered that transformation is less about fixing what is broken and more about expanding my awareness and compassion. This journey gave me tools for ongoing self-work that I still use. Growth, I now accept, is a lifelong process and not a destination."
       },
       {
         id: 3,
         src: "/assets/images/transformed-lifelong-learner/3.jpg",
         alt: "Adapting to change",
         caption: "Adapting to Change",
-        reflection: "[PLACEHOLDER - Replace with personal reflection] Navigating this major change taught me that adaptability is one of the most valuable skills in a rapidly evolving world. I learned that resistance to change often comes from fear, but that embracing uncertainty can open doors to unexpected opportunities. The experience revealed my capacity for resilience and showed me that I can handle more disruption than I would have predicted. I discovered that the most important learning during transitions often comes from the space between who I was and who I'm becoming. This experience has made me more comfortable with ambiguity and more confident in my ability to learn and grow through whatever changes life brings."
+        reflection: "Navigating this major change taught me that adaptability is one of the most valuable skills in a fast-moving world. I learned that resistance to change usually comes from fear, while embracing uncertainty opens unexpected doors. The experience revealed a resilience in myself that I would not have predicted. I discovered that the deepest learning in transition happens in the space between who I was and who I am becoming. This season made me more comfortable with ambiguity and more trusting of my ability to adapt. Change, I now believe, is where most of our real growth happens."
       },
       {
         id: 4,
         src: "/assets/images/transformed-lifelong-learner/4.jpg",
         alt: "Interdisciplinary learning",
         caption: "Interdisciplinary Growth",
-        reflection: "[PLACEHOLDER - Replace with personal reflection] Exploring this field outside my area of expertise challenged me to think in new ways and make connections I wouldn't have otherwise seen. I learned that innovation and insight often happen at the intersections between different domains and ways of knowing. The experience required me to let go of the comfort of expertise and embrace the vulnerability of being a novice again. I discovered that my background in one field can provide unique perspectives on another, creating value through cross-pollination of ideas. This interdisciplinary approach has become central to how I learn, seeking out diverse inputs rather than staying within the comfortable boundaries of my existing knowledge."
+        reflection: "Exploring a field outside my own area challenged me to think in new ways and notice connections I had missed. I learned that insight often lives at the meeting point between different subjects and ways of knowing. The experience required me to trade the comfort of expertise for the vulnerability of starting over. I discovered that my background in one field gave me a unique angle on another. This cross-pollination of ideas has become central to how I learn, and I now seek out unfamiliar ground on purpose. The best questions come from standing somewhere I have never stood before."
       },
       {
         id: 5,
         src: "/assets/images/transformed-lifelong-learner/5.jpg",
         alt: "Teaching and learning from others",
         caption: "Learning Community",
-        reflection: "[PLACEHOLDER - Replace with personal reflection] Participating in this learning community showed me that growth happens best in relationship with others who are also committed to development. I learned that we are all both teachers and students, and that everyone has something valuable to share regardless of their formal expertise. The experience created a safe space for experimentation, failure, and mutual support that accelerated everyone's learning. I discovered that accountability and shared goals can motivate me in ways that self-discipline alone cannot. Being part of a learning community has transformed my understanding of education from a solitary pursuit to a collective journey where we grow together through our shared commitment to becoming better versions of ourselves."
+        reflection: "Being part of this learning community showed me that growth happens best alongside others committed to improving too. I learned that we are all both teachers and students, no matter our formal experience. The group created a safe space for trying, failing, and supporting one another that sped up everyone's progress. I discovered that shared goals and accountability motivate me in ways I cannot create alone. Being part of this community changed how I think about education, from a solo task to a collective journey. We grow the most when we grow together."
       }
     ]
   }

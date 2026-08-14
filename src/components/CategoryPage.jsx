@@ -9,6 +9,7 @@ import { getCategoryLabel, getCategoryTheme } from '../utils/categoryTheme';
 const CategoryPage = () => {
   const { id } = useParams();
   const [activeImage, setActiveImage] = useState(null);
+  const [activeCategoryId, setActiveCategoryId] = useState(null);
   const [lightboxImage, setLightboxImage] = useState(null);
   const [lightboxIndex, setLightboxIndex] = useState(0);
   const [scrollProgress, setScrollProgress] = useState(0);
@@ -18,6 +19,7 @@ const CategoryPage = () => {
   useEffect(() => {
     if (category) {
       setActiveImage(category.images[0]);
+      setActiveCategoryId(category.id);
       setLightboxImage(null);
       setLightboxIndex(0);
       window.scrollTo({ top: 0, behavior: 'auto' });
@@ -47,9 +49,15 @@ const CategoryPage = () => {
   }
 
   const theme = getCategoryTheme(category);
+  const markColor =
+    category.group === 'Core Value' ? theme.accent : theme.accentAlt;
+  const selectedImage =
+    activeCategoryId === category.id
+      ? activeImage ?? category.images[0]
+      : category.images[0];
 
-  const handleSelectImage = (image) => {
-    setActiveImage(image);
+  const handleNavigate = (index) => {
+    setActiveImage(category.images[index]);
   };
 
   const handleOpenLightbox = (image) => {
@@ -108,11 +116,13 @@ const CategoryPage = () => {
         </header>
 
         <ImageGrid
+          key={category.id}
           images={category.images}
-          selectedImage={activeImage ?? category.images[0]}
-          onSelectImage={handleSelectImage}
+          selectedImage={selectedImage}
+          onNavigate={handleNavigate}
           onOpenImage={handleOpenLightbox}
           categoryTitle={category.title}
+          markColor={markColor}
         />
 
         <div className="mt-14">

@@ -19,7 +19,7 @@ const CategoryNav = ({ currentCategoryId }) => {
         <div className="flex items-center justify-between gap-4">
           <div>
             <span className="eyebrow" style={{ color: theme.accent }}>
-              {direction} {getCategoryLabel(category)}
+              {direction} Reel · {getCategoryLabel(category)}
             </span>
             <p className="mt-2 font-display text-xl leading-tight group-hover:underline">
               {category.title}

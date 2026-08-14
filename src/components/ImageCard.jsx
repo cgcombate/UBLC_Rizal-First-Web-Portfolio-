@@ -1,27 +1,22 @@
-import { useState } from 'react';
+import { useFlexibleImage } from '../hooks/useFlexibleImage';
 
-const ImageCard = ({ image, onClick, categoryTitle, isActive = false }) => {
-  const [imageError, setImageError] = useState(false);
-  const [isLoaded, setIsLoaded] = useState(false);
-
-  const handleImageError = () => {
-    setImageError(true);
-  };
-
+const ImageCard = ({ image, onClick, categoryTitle, isActive = false, delay = 0 }) => {
   const getPlaceholderUrl = () => {
     const colors = ['e2e8f0', 'cbd5e1', '94a3b8', '64748b', '475569'];
     const colorIndex = (image.id - 1) % colors.length;
     return `https://placehold.co/600x450/${colors[colorIndex]}/64748b?text=${encodeURIComponent(image.caption)}`;
   };
 
-  const handleImageLoad = () => {
-    setIsLoaded(true);
-  };
+  const { src, isLoaded, isFailed, handleError, handleLoad } = useFlexibleImage(
+    image.src,
+    getPlaceholderUrl()
+  );
 
   return (
     <button
       type="button"
-      className="group block w-full cursor-pointer text-left"
+      className="group card-reveal block w-full cursor-pointer text-left"
+      style={{ '--card-delay': `${delay}ms` }}
       onClick={() => onClick(image)}
       aria-label={`View ${image.caption} from ${categoryTitle}`}
       aria-pressed={isActive}
@@ -31,22 +26,22 @@ const ImageCard = ({ image, onClick, categoryTitle, isActive = false }) => {
           isActive ? 'border-[var(--best-brass)]' : 'border-transparent'
         }`}
       >
-        {!isLoaded && !imageError && (
+        {!isLoaded && !isFailed && (
           <div className="absolute inset-0 animate-pulse bg-[rgba(18,23,43,0.06)]" />
         )}
-        {imageError ? (
+        {isFailed ? (
           <img
-            src={getPlaceholderUrl()}
+            src={src}
             alt={image.alt}
             className="w-full h-full object-cover"
           />
         ) : (
           <img
-            src={image.src}
+            src={src}
             alt={image.alt}
             className={`h-full w-full object-cover ${isLoaded ? 'opacity-100' : 'opacity-0'}`}
-            onError={handleImageError}
-            onLoad={handleImageLoad}
+            onError={handleError}
+            onLoad={handleLoad}
             loading="lazy"
           />
         )}
