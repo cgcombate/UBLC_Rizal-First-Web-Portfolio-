@@ -128,7 +128,7 @@ const Scrapbook = ({
         {previous && (
           <div
             key={`out-${previous.src}`}
-            className={`scrap-page--flip-out ${direction === 'next' ? 'flip-fwd' : 'flip-back'} absolute inset-0 z-20`}
+            className={`scrap-page--flip-out ${direction === 'next' ? 'flip-fwd' : 'flip-back'} pointer-events-none absolute inset-0 z-20`}
           >
             <ScrapPage
               image={previous}

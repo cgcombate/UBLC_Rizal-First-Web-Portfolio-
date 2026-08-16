@@ -89,7 +89,9 @@ const Lightbox = ({
         <img
           src={imageSrc}
           alt=""
-          className="h-full w-full scale-125 object-cover opacity-25 blur-[80px] saturate-[0.85]"
+          loading="lazy"
+          decoding="async"
+          className="h-full w-full scale-125 object-cover opacity-25 blur-[40px] saturate-[0.85]"
         />
       </div>
 

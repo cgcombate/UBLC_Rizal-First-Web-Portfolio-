@@ -222,14 +222,12 @@
   @keyframes lightboxIn {
     from {
       opacity: 0;
-      transform: scale(0.965) translateY(22px);
-      filter: blur(6px);
+      transform: scale(0.98) translateY(14px);
     }
 
     to {
       opacity: 1;
       transform: scale(1) translateY(0);
-      filter: blur(0);
     }
   }
 
@@ -237,13 +235,11 @@
     from {
       opacity: 1;
       transform: scale(1) translateY(0);
-      filter: blur(0);
     }
 
     to {
       opacity: 0;
-      transform: scale(0.985) translateY(14px);
-      filter: blur(4px);
+      transform: scale(0.99) translateY(8px);
     }
   }
 
@@ -374,12 +370,12 @@
   }
 
   .lightbox-in {
-    animation: lightboxIn 560ms cubic-bezier(0.16, 1, 0.3, 1) both;
-    will-change: transform, opacity, filter;
+    animation: lightboxIn 460ms cubic-bezier(0.22, 1, 0.36, 1) both;
+    will-change: transform, opacity;
   }
 
   .lightbox-in--closing {
-    animation: lightboxOut 260ms cubic-bezier(0.4, 0, 1, 1) forwards;
+    animation: lightboxOut 200ms cubic-bezier(0.4, 0, 1, 1) forwards;
   }
 
   .lightbox-img--fade-in {
