@@ -51,16 +51,16 @@ export const categories = [
       {
         id: 1,
         src: "/assets/images/love-of-wisdom/1.jpg",
-        alt: "Library research session",
+        alt: "Researching a topic online at home",
         caption: "Research Journey",
-        reflection: "Hours spent in the library chasing a question I am curious about are some of my happiest moments. I have always been driven to understand not just how things work but why they matter beneath the surface. This research project pushed me to pull together ideas from many different fields and angles. The process of discovery, even when it ends with more questions than answers, keeps my curiosity burning. I have come to see learning not as a means to a grade but as a way of living that adds richness to everything I do. Every new answer simply opens another door I want to walk through."
+        reflection: "This photo shows me researching a topic I am curious about using my phone and notes at home. I have always been driven to understand not just how things work but why they matter beneath the surface. I learned that I do not need to go anywhere to do research, the knowledge I am looking for is right at my fingertips. Gathering information from different sources and piecing it together taught me how to dig for answers on my own. The process of discovery, even when it ends with more questions than answers, keeps my curiosity burning. Every new answer simply opens another door I want to walk through."
       },
       {
         id: 2,
         src: "/assets/images/love-of-wisdom/2.jpg",
-        alt: "Collaborative learning discussion",
-        caption: "Collaborative Learning",
-        reflection: "Some of the deepest lessons I have ever learned happened in conversation with people who see the world differently than I do. This discussion group became a place where we could question each other's ideas without ego or competition. I have discovered that wisdom rarely appears in isolation; it emerges from the honest exchange of perspectives. These talks have taught me to listen carefully, to doubt my own certainties, and to welcome the discomfort of real growth. The range of thought in this group stretched my understanding in ways I could not have done alone. I now seek out conversations like these on purpose."
+        alt: "Watching an educational video or online lesson",
+        caption: "Learning Online",
+        reflection: "This photo shows me watching an educational video to learn something new on my own. I have learned that I do not need a classroom or a group to keep growing, I can learn from a video or an online lesson anytime. Pausing to take notes and replaying the parts I missed taught me how to learn at my own pace. I discovered that being curious means taking the initiative to seek out answers by myself. The lesson reminded me that knowledge is everywhere around me if I am willing to look for it. My learning is in my own hands, and I can feed my curiosity any day I choose."
       },
       {
         id: 3,
@@ -79,9 +79,9 @@ export const categories = [
       {
         id: 5,
         src: "/assets/images/love-of-wisdom/5.jpg",
-        alt: "Teaching and sharing knowledge",
-        caption: "Sharing Knowledge",
-        reflection: "Teaching others has become one of the most powerful ways I deepen my own understanding. When I try to explain an idea clearly to someone else, I am forced to sort out my own thinking and face the gaps in it. This photo captures the joy of watching a concept finally click for another person. I have learned that wisdom grows when it is shared, and that my grasp of an idea becomes firmer the moment I give it away. These experiences have taught me patience, empathy, and how to meet people right where they are. Every time I teach, I end up learning the most."
+        alt: "Writing notes and summarizing what was learned",
+        caption: "Writing to Share",
+        reflection: "This photo shows me writing down and summarizing what I have learned so I can share it with others later. I have learned that putting an idea into my own words forces me to really understand it first. Explaining a concept clearly on paper reveals the gaps in my thinking better than simply reading about it. I discovered that my grasp of an idea becomes firmer the moment I write it down to give it away. This practice taught me patience, clear thinking, and how to make knowledge useful to others. Every time I summarize a lesson, I end up learning it even better."
       }
     ]
   },
