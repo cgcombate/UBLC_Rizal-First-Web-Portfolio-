@@ -94,37 +94,37 @@ export const categories = [
       {
         id: 1,
         src: "/assets/images/service-to-fellowmen/1.jpg",
-        alt: "Community volunteer work",
-        caption: "Community Service",
-        reflection: "This volunteer project represents my commitment to giving back to the community that shaped me. I have learned that service is not just about helping others but about building genuine relationships across different lives. The work was demanding and called on skills I did not know I had, which pushed me to grow. Through this experience I discovered that my deepest fulfillment comes from contributing to something larger than myself. Service has become the lens through which I make my decisions, always asking how I can use my time for others. What I received from this community was far greater than what I gave."
+        alt: "Preparing study notes to share with classmates",
+        caption: "Preparing to Share",
+        reflection: "This photo shows me making study notes to share with my classmates. I have learned that service does not have to be grand to be meaningful, sometimes simply preparing something helpful for others is enough. As I reviewed each lesson and wrote it down clearly, I thought about how this could make studying easier for someone else. I discovered that serving others can happen anywhere, even alone at my desk. These small moments taught me that I do not need to wait for a big event or a group to be of service. A little time and effort prepared in private can help others in a real way."
       },
       {
         id: 2,
         src: "/assets/images/service-to-fellowmen/2.jpg",
-        alt: "Mentoring and guidance",
-        caption: "Mentoring Others",
-        reflection: "Mentoring has been one of the most meaningful ways I have found to serve, passing on the lessons I have learned. This relationship taught me that mentoring is not about having all the answers but about walking alongside someone. I have been humbled by how much I learn from the people I mentor, who often see possibilities I miss. The give-and-take of mentoring has shown me that service flows in every direction. These connections have given me a sense of purpose that reaches far beyond my own goals. Being trusted with someone's growth is both a responsibility and a gift."
+        alt: "Helping with household chores",
+        caption: "Helping at Home",
+        reflection: "This picture captures me doing chores at home, a simple way I serve my family every day. I used to think of household work as just a responsibility, but I have come to see it as a quiet act of service to the people I love. Helping out means my parents can rest a little earlier and the load on the household is a bit lighter. I learned that serving starts in the very place I live, long before it reaches the wider community. These daily routines taught me responsibility, patience, and gratitude for everything my family does for me. Service, I now understand, begins with the people right in front of me."
       },
       {
         id: 3,
         src: "/assets/images/service-to-fellowmen/3.jpg",
-        alt: "Advocacy and social justice",
-        caption: "Advocacy Work",
-        reflection: "Getting involved in advocacy pushed me past good intentions and into real action for people whose voices are often unheard. This campaign required me to listen closely, educate myself on difficult issues, and speak up even when it was uncomfortable. I learned that meaningful service sometimes means confronting hard truths and using my position to lift others. The experience transformed my understanding of what it means to be a responsible citizen. It showed me that service also means working for change in the systems around us. I left with a much broader vision of what serving my fellow men truly requires."
+        alt: "Cleaning up the area around home",
+        caption: "Caring for My Space",
+        reflection: "This photo shows me cleaning up litter and clutter in the area around my home. I learned that caring for a shared space is one of the easiest and most visible ways to serve the people around me. Sweeping and picking up trash by myself may seem small, but the difference was clear as soon as I finished. The experience taught me that I do not need a group to start, one person caring for a place can inspire others to do the same. I discovered that service is not only about people, it is also about caring for the place we all share. A clean space shows respect for everyone who lives in it."
       },
       {
         id: 4,
         src: "/assets/images/service-to-fellowmen/4.jpg",
-        alt: "Supporting those in need",
-        caption: "Direct Support",
-        reflection: "This moment captures me supporting someone through a difficult season, a kind of service that feels both intimate and profound. I have learned that sometimes the most important thing I can offer is simply being present with someone in their pain. These experiences taught me to set aside my own agenda and really listen to what another person needs. The humility required for this kind of care has been deeply transforming. Direct service keeps me grounded in the truth that we all need help at some point in our lives. Giving help and receiving it are both essential to our shared dignity."
+        alt: "Donating clothes and goods to those in need",
+        caption: "Giving What I Have",
+        reflection: "This photo shows me sorting old clothes and goods to donate to families in need. I learned that giving does not require money, I can share what I no longer use and let it bring value to someone else. Going through my things made me realize how much I have compared to many others, and how simple it is to pass that along. The experience taught me to hold my possessions more loosely and to think of them as things to be shared. I discovered that donating is one of the easiest forms of service I can do on my own. What I gave away was small to me, but it can mean a lot to someone else."
       },
       {
         id: 5,
         src: "/assets/images/service-to-fellowmen/5.jpg",
-        alt: "Building community connections",
-        caption: "Community Building",
-        reflection: "Organizing this community event taught me that service often means creating spaces where people can connect and build together. I discovered that my role was not to be the hero but to help others recognize and use their own gifts. Building community has demanded patience, honest conversations, and the ability to see potential in unlikely places. These experiences have shown me that lasting service empowers people rather than doing things for them. Community building reshaped my understanding of leadership as service to the collective good. I learned that small, shared moments create the strongest bonds of all."
+        alt: "Preparing food or a gift to share with others",
+        caption: "Preparing to Give",
+        reflection: "This photo shows me preparing food and a small gift to share with someone who could use a little kindness. I learned that I do not have to wait to be asked, I can take the first step and prepare something for others on my own. Packing the food carefully, I imagined how it might brighten someone's day. The experience taught me that giving does not require a special occasion or a big budget. I discovered that thinking of others and acting on it, even quietly and alone, is what service really means. Kindness prepared in private still reaches the person who needs it."
       }
     ]
   },
@@ -223,37 +223,37 @@ export const categories = [
       {
         id: 1,
         src: "/assets/images/social-moral-global/1.jpg",
-        alt: "Cultural exchange experience",
-        caption: "Cultural Exchange",
-        reflection: "This cultural exchange experience shifted my perspective and challenged assumptions I did not even know I held. I learned that being a global citizen does not mean abandoning my own identity but widening how I see the world. The discomfort of unfamiliar surroundings taught me empathy, humility, and how much I usually take for granted. I discovered that genuine cross-cultural connection grows from curiosity more than judgment. This experience made me aware of both our differences and the shared humanity that links us across borders. I came home seeing my own culture more clearly than ever before."
+        alt: "Exploring family keepsakes and local traditions",
+        caption: "My Heritage",
+        reflection: "This photo shows me looking through family keepsakes and learning about the traditions passed down in my community. I learned that being a global citizen starts with understanding and appreciating my own culture first. Each photo and keepsake carried a story about where my family and my community come from. The experience made me curious about how other places keep their own traditions alive in similar and different ways. I discovered that I can explore culture without leaving home, through stories, objects, and the memories of those around me. I no longer take my own heritage for granted."
       },
       {
         id: 2,
         src: "/assets/images/social-moral-global/2.jpg",
-        alt: "Ethical decision-making",
-        caption: "Ethical Leadership",
-        reflection: "Facing this ethical dilemma forced me to clarify my values and build a framework for hard decisions. I learned that moral leadership is not about easy answers but about navigating complexity with honesty and courage. The experience showed me that ethical choices often involve genuine trade-offs between competing goods. I discovered that seeking diverse perspectives and considering everyone affected is essential to good decisions. This challenge has made me more thoughtful about the ethical side of all my choices. Integrity, I now believe, is built through many small decisions made when no one is watching."
+        alt: "Writing in a journal about values and choices",
+        caption: "Living with Integrity",
+        reflection: "This photo shows me writing in a journal about the values I try to live by and the choices I make each day. I have learned that integrity is built through small decisions made when no one is watching. Writing down my thoughts helps me hold myself accountable to the kind of person I want to become. The practice taught me to check my own actions honestly instead of waiting for others to judge them. I discovered that being a person of character is a daily, private practice, not a one-time act. Every honest choice, even the quiet ones, strengthens who I am."
       },
       {
         id: 3,
         src: "/assets/images/social-moral-global/3.jpg",
-        alt: "Global issues engagement",
-        caption: "Global Issues",
-        reflection: "Engaging with this global issue helped me see how connected today's challenges really are. I learned that being a global citizen means educating myself about problems that may not touch me directly but matter deeply to others. The experience revealed how complex systems create issues no single community can solve alone. I discovered that real engagement requires both knowledge and humility. Global work has given me a broader sense of my own role and responsibilities in an interconnected world. I no longer think of any issue as simply happening somewhere else."
+        alt: "Separating recyclables at home or school",
+        caption: "Thinking of the World",
+        reflection: "This photo shows me sorting recyclables at home instead of throwing everything in one bin. I learned that global issues like climate change and waste begin with the small choices I make in my own kitchen. Being mindful about what I throw away made me realize how connected my daily habits are to the wider world. The experience taught me that I do not need to travel far to act as a global citizen, I can start right where I am. I discovered that small, repeated actions build real change over time. Caring for the world starts with caring for my own corner of it."
       },
       {
         id: 4,
         src: "/assets/images/social-moral-global/4.jpg",
-        alt: "Community engagement and participation",
-        caption: "Civic Engagement",
-        reflection: "Taking part in this civic process taught me that democracy and community demand active involvement, not passive watching. I learned that being a good citizen means staying informed, showing up for hard conversations, and working across differences. The experience showed me that change is possible but rarely quick, requiring persistence through setbacks. I discovered that my voice carries the most weight when it joins with others. Civic engagement has become a core part of how I understand my responsibility to society. Showing up is the first and most important act of citizenship."
+        alt: "Reading the news or researching current events",
+        caption: "Staying Informed",
+        reflection: "This photo shows me reading the news and catching up on what is happening in my community and around the world. I learned that being a good citizen starts with staying informed and understanding the issues that affect other people. The more I read, the more I realize how connected our lives are to events far beyond my own neighborhood. The experience taught me that I do not need to wait for a big event to be engaged, keeping myself informed is something I can do every day. I discovered that awareness is the first step to caring, and caring is the first step to acting. A good citizen begins by simply paying attention."
       },
       {
         id: 5,
         src: "/assets/images/social-moral-global/5.jpg",
-        alt: "Social responsibility and sustainability",
-        caption: "Social Responsibility",
-        reflection: "This sustainability project taught me that responsibility includes thinking about the long-term impact of my choices. I learned that small individual actions, multiplied across a community, can create meaningful change. The experience revealed how environmental, social, and economic issues are tangled together and need whole-picture thinking. I discovered that living responsibly is not about perfection but about steady, conscious improvement. This work gave me a framework for weighing my decisions by their wider effects. I now ask not just whether I can do something, but whether I should."
+        alt: "Planting a tree or tending plants",
+        caption: "Caring for the Environment",
+        reflection: "This photo shows me planting a tree in our neighborhood, a small act with a long-term impact. I learned that social responsibility means thinking about how my choices affect the people and places around me, even years from now. Digging the hole and watering the sapling taught me that small individual actions do add up when many people do them. The experience reminded me that the environment is something I share with my whole community. I discovered that living responsibly is not about being perfect but about making steady, caring choices. One small tree is a start, and every start matters."
       }
     ]
   },
