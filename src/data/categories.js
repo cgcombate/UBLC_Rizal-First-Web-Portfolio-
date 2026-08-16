@@ -72,9 +72,9 @@ export const categories = [
       {
         id: 4,
         src: "/assets/images/love-of-wisdom/4.jpg",
-        alt: "Reading and intellectual exploration",
-        caption: "Literary Exploration",
-        reflection: "Books have been my most constant teachers, opening windows into lives and worlds I could never experience directly. This particular stretch of reading changed how I think about an important topic and showed me how ideas travel across time and culture. I read not as a passive receiver but as an active partner in conversation with the author. Reading widely across many genres has given me a richer and more connected view of the world. Each book leaves behind fresh questions and new trails to follow, which means my learning never really ends. I carry these conversations with me long after I close the cover."
+        alt: "Reading articles and stories online on my PC",
+        caption: "Reading Online",
+        reflection: "This photo shows me reading articles and stories on my computer, one of the ways I explore ideas on my own. Reading online has opened windows into lives and worlds I could never experience directly. This particular stretch of reading changed how I think about an important topic and showed me how ideas travel across time and culture. I read not as a passive receiver but as an active partner in conversation with the writer. Reading widely across many topics has given me a richer and more connected view of the world. Each piece leaves behind fresh questions and new trails to follow, which means my learning never really ends."
       },
       {
         id: 5,
