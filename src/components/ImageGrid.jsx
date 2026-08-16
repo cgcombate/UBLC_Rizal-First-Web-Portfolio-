@@ -1,7 +1,8 @@
 import Scrapbook from './Scrapbook';
 import ScrapbookStrip from './ScrapbookStrip';
+import CategoryQuickNav from './CategoryQuickNav';
 
-const ImageGrid = ({ images, selectedImage, onNavigate, onOpenImage, categoryTitle, markColor }) => {
+const ImageGrid = ({ images, selectedImage, onNavigate, onOpenImage, categoryTitle, markColor, categoryId }) => {
   const selectedIndex = images.findIndex((image) => image.id === selectedImage.id);
 
   return (
@@ -41,6 +42,8 @@ const ImageGrid = ({ images, selectedImage, onNavigate, onOpenImage, categoryTit
           categoryTitle={categoryTitle}
         />
       </div>
+
+      <CategoryQuickNav currentCategoryId={categoryId} />
     </section>
   );
 };

@@ -123,6 +123,7 @@ const CategoryPage = () => {
           onOpenImage={handleOpenLightbox}
           categoryTitle={category.title}
           markColor={markColor}
+          categoryId={category.id}
         />
 
         <div className="mt-14">
@@ -138,6 +139,8 @@ const CategoryPage = () => {
           onClose={handleLightboxClose}
           onNext={handleLightboxNext}
           onPrev={handleLightboxPrev}
+          categoryTitle={category.title}
+          accent={markColor}
         />
       )}
     </div>

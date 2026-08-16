@@ -3,7 +3,7 @@ import { useFlexibleImage } from '../hooks/useFlexibleImage';
 
 const pad = (number) => String(number).padStart(2, '0');
 
-const ScrapPage = ({ image, index, total, onOpenImage, markColor }) => {
+const ScrapPage = ({ image, onOpenImage, markColor }) => {
   const { src, handleError, handleLoad } = useFlexibleImage(
     image.src,
     'https://placehold.co/1200x960/e8e2d8/12172B?text=Image+Unavailable'
@@ -23,10 +23,7 @@ const ScrapPage = ({ image, index, total, onOpenImage, markColor }) => {
         ))}
       </div>
 
-      <div className="mb-3 flex items-end justify-between gap-4">
-        <span className="eyebrow" style={{ color: markColor }}>
-          Page {pad(index + 1)} / {pad(total)}
-        </span>
+      <div className="mb-3 flex items-end justify-end gap-4">
         <span className="eyebrow text-soft">{image.caption}</span>
       </div>
 
@@ -42,16 +39,32 @@ const ScrapPage = ({ image, index, total, onOpenImage, markColor }) => {
         <button
           type="button"
           onClick={() => onOpenImage(image)}
-          className="relative block w-full cursor-pointer overflow-hidden border border-[rgba(18,23,43,0.16)]"
+          className="group/img relative block w-full cursor-pointer overflow-hidden border border-[rgba(18,23,43,0.16)] transition-transform duration-300 hover:scale-[1.015]"
           aria-label={`Open enlarged view for ${image.caption}`}
         >
           <img
             src={src}
             alt={image.alt}
-            className="aspect-[5/4] h-full w-full object-cover"
+            className="aspect-[5/4] h-full w-full object-cover transition-transform duration-500 ease-out group-hover/img:scale-[1.03]"
             onError={handleError}
             onLoad={handleLoad}
           />
+          <span
+            className="absolute inset-0 flex items-center justify-center bg-[rgba(18,23,43,0.4)] opacity-0 backdrop-blur-[2px] transition-opacity duration-300 group-hover/img:opacity-100 focus-visible:opacity-100"
+            aria-hidden="true"
+          >
+            <span className="inline-flex items-center gap-2 eyebrow text-[var(--paper)]">
+              View Full Reflection
+              <svg
+                className="h-4 w-4 transition-transform duration-300 group-hover/img:translate-x-0.5 group-hover/img:-translate-y-0.5"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.8} d="M5 19L19 5m0 0h-9m9 0v9" />
+              </svg>
+            </span>
+          </span>
         </button>
       </div>
 
@@ -119,8 +132,6 @@ const Scrapbook = ({
           >
             <ScrapPage
               image={previous}
-              index={images.findIndex((img) => img.id === previous.id)}
-              total={total}
               onOpenImage={onOpenImage}
               markColor={markColor}
             />
@@ -138,8 +149,6 @@ const Scrapbook = ({
         >
           <ScrapPage
             image={displayed}
-            index={displayedIndex}
-            total={total}
             onOpenImage={onOpenImage}
             markColor={markColor}
           />
@@ -151,27 +160,58 @@ const Scrapbook = ({
             aria-hidden="true"
           />
         )}
+      </div>
 
+      <div className="mt-5 flex items-center justify-between gap-4">
         <button
           type="button"
           onClick={() => onNavigate((displayedIndex - 1 + total) % total)}
-          className="absolute left-2 top-1/2 z-30 inline-flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border bg-black/40 text-[var(--paper)] opacity-40 backdrop-blur-sm transition-opacity duration-200 hover:opacity-100 focus-visible:opacity-100 sm:left-3 sm:h-11 sm:w-11"
-          style={{ borderColor: markColor }}
+          className="group/btn inline-flex items-center gap-2 text-xs font-medium uppercase tracking-[0.22em] text-[var(--ink)] transition-colors duration-200 hover:text-[color:var(--scrap-accent)] focus-visible:outline-[var(--best-brass)]"
+          style={{ '--scrap-accent': markColor }}
           aria-label="Previous page"
         >
-          <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg
+            className="h-4 w-4 transition-transform duration-200 group-hover/btn:-translate-x-1"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.8} d="M15 19l-7-7 7-7" />
           </svg>
+          Previous
         </button>
+
+        <div className="flex items-center gap-2" aria-hidden="true">
+          {images.map((image, index) => (
+            <span
+              key={image.id}
+              className="rounded-full transition-all duration-300"
+              style={{
+                width: index === displayedIndex ? '1.25rem' : '0.375rem',
+                height: '0.375rem',
+                backgroundColor:
+                  index === displayedIndex
+                    ? markColor
+                    : 'rgba(18, 23, 43, 0.18)',
+              }}
+            />
+          ))}
+        </div>
 
         <button
           type="button"
           onClick={() => onNavigate((displayedIndex + 1) % total)}
-          className="absolute right-2 top-1/2 z-30 inline-flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border bg-black/40 text-[var(--paper)] opacity-40 backdrop-blur-sm transition-opacity duration-200 hover:opacity-100 focus-visible:opacity-100 sm:right-3 sm:h-11 sm:w-11"
-          style={{ borderColor: markColor }}
+          className="group/btn inline-flex items-center gap-2 text-xs font-medium uppercase tracking-[0.22em] text-[var(--ink)] transition-colors duration-200 hover:text-[color:var(--scrap-accent)] focus-visible:outline-[var(--best-brass)]"
+          style={{ '--scrap-accent': markColor }}
           aria-label="Next page"
         >
-          <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          Next
+          <svg
+            className="h-4 w-4 transition-transform duration-200 group-hover/btn:translate-x-1"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.8} d="M9 5l7 7-7 7" />
           </svg>
         </button>

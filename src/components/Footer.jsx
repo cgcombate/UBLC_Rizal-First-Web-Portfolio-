@@ -10,8 +10,7 @@ const Footer = () => {
             </p>
           </div>
           <p className="max-w-md text-sm leading-6">
-            Preserving the original seven categories, image set, and routing while presenting the
-            work through a more editorial visual language.
+            Cedric Combate
           </p>
         </div>
       </div>

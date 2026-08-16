@@ -90,13 +90,10 @@ const CategoryRow = ({ category, index }) => {
   );
 };
 
-const CategorySection = ({ title, eyebrow, items }) => (
+const CategorySection = ({ title, items }) => (
   <section className="mb-16 md:mb-20">
     <div className="mb-8 flex items-end justify-between gap-6 border-t pt-5 surface-line">
-      <div>
-        <p className="eyebrow text-[var(--best-brass)]">{eyebrow}</p>
-        <h2 className="mt-2 font-display text-3xl leading-tight md:text-4xl">{title}</h2>
-      </div>
+      <h2 className="font-display text-3xl leading-tight md:text-4xl">{title}</h2>
       <p className="hidden max-w-sm text-right text-sm leading-6 text-soft md:block">
         Browse each category as an index entry, then open the full photographic reflection set.
       </p>
@@ -116,8 +113,8 @@ const CategoryPreviewGrid = () => {
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 md:py-18 lg:px-8 lg:py-20">
-      <CategorySection title="Core Values" eyebrow="Maroon Signal" items={coreValues} />
-      <CategorySection title="BEST Attributes" eyebrow="Navy + Brass Signal" items={bestAttributes} />
+      <CategorySection title="Core Values" items={coreValues} />
+      <CategorySection title="BEST Attributes" items={bestAttributes} />
     </div>
   );
 };
