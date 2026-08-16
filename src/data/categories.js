@@ -36,9 +36,9 @@ export const categories = [
       {
         id: 5,
         src: "/assets/images/faith-in-god/5.jpg",
-        alt: "Service and compassion in action",
+        alt: "Quiet prayer for others",
         caption: "Faith in Action",
-        reflection: "For me, faith only feels complete when it moves out of my head and into my hands. This photo captures a moment when my beliefs pushed me past my comfort zone to help someone who was struggling. I have learned that serving others often costs time and convenience, but those moments have been among the most meaningful of my life. Service has become the way I actually live out my values instead of merely professing them. Each small act of kindness strengthens the bond between what I believe and how I choose to act. It has shown me that compassion is not a feeling but a decision I make again and again."
+        reflection: "For me, faith only feels complete when it moves out of my head and into action. This photo captures me in a quiet moment of prayer, lifting up the needs of people I know who are struggling. I have learned that I do not have to be in a big gathering to live out my faith, I can act on it right where I am. Praying for others has taught me compassion, patience, and how to care for people even from a distance. Each quiet act of devotion strengthens the bond between what I believe and how I choose to live. Faith in action begins with a willing heart, wherever I am."
       }
     ]
   },
@@ -251,9 +251,9 @@ export const categories = [
       {
         id: 5,
         src: "/assets/images/social-moral-global/5.jpg",
-        alt: "Planting a tree or tending plants",
+        alt: "Saving energy at home",
         caption: "Caring for the Environment",
-        reflection: "This photo shows me planting a tree in our neighborhood, a small act with a long-term impact. I learned that social responsibility means thinking about how my choices affect the people and places around me, even years from now. Digging the hole and watering the sapling taught me that small individual actions do add up when many people do them. The experience reminded me that the environment is something I share with my whole community. I discovered that living responsibly is not about being perfect but about making steady, caring choices. One small tree is a start, and every start matters."
+        reflection: "This photo shows me turning off the lights and saving energy at home, a small act with a long-term impact. I learned that social responsibility means thinking about how my choices affect the people and places around me, even beyond my own home. Switching off what I am not using taught me that small individual actions do add up when many people do them. The experience reminded me that the environment is something I share with my whole community. I discovered that living responsibly is not about being perfect but about making steady, caring choices. One small habit is a start, and every start matters."
       }
     ]
   },
